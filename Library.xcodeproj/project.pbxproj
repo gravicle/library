@@ -10,6 +10,7 @@
 		10B2C4864074E9825748F5E3 /* Pods_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1708CE01D8BDD75953652B7 /* Pods_Library.framework */; };
 		36812217AC59D000D9D74DD2 /* Pods_LibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6936158BF5A2C717EA36E9 /* Pods_LibraryTests.framework */; };
 		C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */; };
+		C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */; };
 		C8DF3E9E1ED9413E00E878DB /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DF3E941ED9413E00E878DB /* Library.framework */; };
 		C8DF3EA51ED9413E00E878DB /* Library.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DF3E971ED9413E00E878DB /* Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8DF3EC01ED9470900E878DB /* Array+NonNulled.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF3EAF1ED9470800E878DB /* Array+NonNulled.swift */; };
@@ -50,6 +51,7 @@
 		5B6936158BF5A2C717EA36E9 /* Pods_LibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1708CE01D8BDD75953652B7 /* Pods_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNotEmpty.swift"; sourceTree = "<group>"; };
+		C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+DoOnNBextOrError.swift"; sourceTree = "<group>"; };
 		C8DF3E941ED9413E00E878DB /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DF3E971ED9413E00E878DB /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
 		C8DF3E981ED9413E00E878DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				C8DF3EBE1ED9470800E878DB /* UITextField+RxEditing.swift */,
 				C8DF3EBF1ED9470800E878DB /* URLConvertible+Append.swift */,
 				C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */,
+				C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				C8DF3EC81ED9470900E878DB /* Optional+Then.swift in Sources */,
 				C8DF3ECB1ED9470900E878DB /* StringErrors.swift in Sources */,
 				C8DF3ECA1ED9470900E878DB /* Sequence+DoesNotContain.swift in Sources */,
+				C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */,
 				C8DF3ECD1ED9470900E878DB /* UIStackView+ArrangedSubviews.swift in Sources */,
 				C8DF3ECF1ED9470900E878DB /* UITextField+RxEditing.swift in Sources */,
 				C8DF3ED01ED9470900E878DB /* URLConvertible+Append.swift in Sources */,
