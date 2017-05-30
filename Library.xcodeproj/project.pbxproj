@@ -11,6 +11,7 @@
 		36812217AC59D000D9D74DD2 /* Pods_LibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6936158BF5A2C717EA36E9 /* Pods_LibraryTests.framework */; };
 		C828424E1EDDE5E000E786A7 /* UIView+isvisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */; };
 		C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */; };
+		C86190E61EDDF47C007DD53E /* UITextInput+Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */; };
 		C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */; };
 		C8DF3E9E1ED9413E00E878DB /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DF3E941ED9413E00E878DB /* Library.framework */; };
 		C8DF3EA51ED9413E00E878DB /* Library.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DF3E971ED9413E00E878DB /* Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,6 +54,7 @@
 		B1708CE01D8BDD75953652B7 /* Pods_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+isvisible.swift"; sourceTree = "<group>"; };
 		C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNotEmpty.swift"; sourceTree = "<group>"; };
+		C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextInput+Clear.swift"; sourceTree = "<group>"; };
 		C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+DoOnNBextOrError.swift"; sourceTree = "<group>"; };
 		C8DF3E941ED9413E00E878DB /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DF3E971ED9413E00E878DB /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */,
 				C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */,
 				C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */,
+				C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				C828424E1EDDE5E000E786A7 /* UIView+isvisible.swift in Sources */,
 				C8DF3ED01ED9470900E878DB /* URLConvertible+Append.swift in Sources */,
 				C8DF3EC91ED9470900E878DB /* OptionalType.swift in Sources */,
+				C86190E61EDDF47C007DD53E /* UITextInput+Clear.swift in Sources */,
 				C8DF3ECC1ED9470900E878DB /* UIColor+Random.swift in Sources */,
 				C8DF3EC71ED9470900E878DB /* Optional+Existence.swift in Sources */,
 				C8DF3ECE1ED9470900E878DB /* UIStackView+Configuration.swift in Sources */,

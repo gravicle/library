@@ -13,3 +13,16 @@ extension Reactive where Base: UITextField {
     }
 
 }
+
+
+extension Reactive where Base: UITextView {
+
+    public var isEditing: ControlEvent<Bool> {
+        let beginEvents = base.rx.didBeginEditing.map { return true }
+        let endEvents = base.rx.didEndEditing.map { return false }
+        let source = Observable.merge(beginEvents, endEvents)
+
+        return ControlEvent(events: source)
+    }
+    
+}
