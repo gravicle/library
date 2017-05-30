@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10B2C4864074E9825748F5E3 /* Pods_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1708CE01D8BDD75953652B7 /* Pods_Library.framework */; };
 		36812217AC59D000D9D74DD2 /* Pods_LibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6936158BF5A2C717EA36E9 /* Pods_LibraryTests.framework */; };
+		C828424E1EDDE5E000E786A7 /* UIView+isvisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */; };
 		C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */; };
 		C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */; };
 		C8DF3E9E1ED9413E00E878DB /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DF3E941ED9413E00E878DB /* Library.framework */; };
@@ -50,6 +51,7 @@
 		39862CB10A3987EAAC762759 /* Pods-Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Library.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Library/Pods-Library.debug.xcconfig"; sourceTree = "<group>"; };
 		5B6936158BF5A2C717EA36E9 /* Pods_LibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1708CE01D8BDD75953652B7 /* Pods_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+isvisible.swift"; sourceTree = "<group>"; };
 		C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNotEmpty.swift"; sourceTree = "<group>"; };
 		C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+DoOnNBextOrError.swift"; sourceTree = "<group>"; };
 		C8DF3E941ED9413E00E878DB /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +181,7 @@
 				C8DF3EBF1ED9470800E878DB /* URLConvertible+Append.swift */,
 				C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */,
 				C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */,
+				C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */,
 				C8DF3ECD1ED9470900E878DB /* UIStackView+ArrangedSubviews.swift in Sources */,
 				C8DF3ECF1ED9470900E878DB /* UITextField+RxEditing.swift in Sources */,
+				C828424E1EDDE5E000E786A7 /* UIView+isvisible.swift in Sources */,
 				C8DF3ED01ED9470900E878DB /* URLConvertible+Append.swift in Sources */,
 				C8DF3EC91ED9470900E878DB /* OptionalType.swift in Sources */,
 				C8DF3ECC1ED9470900E878DB /* UIColor+Random.swift in Sources */,

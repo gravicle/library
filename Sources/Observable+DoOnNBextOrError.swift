@@ -10,3 +10,15 @@ public extension Observable {
     }
 
 }
+
+
+public extension PrimitiveSequence {
+
+    public func doOnSuccessOrError(_ closure: @escaping () -> Void) -> PrimitiveSequence<Trait, Element> {
+        return self.do(
+            onNext: { _ in closure() },
+            onError: { _ in closure() }
+        )
+    }
+
+}
