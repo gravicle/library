@@ -51,6 +51,7 @@ class UIStackViewArrangedSubviewsTests: XCTestCase {
             })
 
         stack.removeArrangedSubview(view)
+        view.removeFromSuperview()
 
         wait(for: [exp], timeout: 1.0)
     }
