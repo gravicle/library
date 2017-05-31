@@ -23,6 +23,8 @@ public extension UIStackView {
 
 }
 
+// MARK: Layouts
+
 public extension UIStackView.Layout {
 
     public static let verticalGrid = UIStackView.Layout(
@@ -36,6 +38,8 @@ public extension UIStackView.Layout {
         distribution: .fillEqually,
         alignment: .fill
     )
+
+    
 }
 
 // MARK: - Packing
@@ -45,12 +49,12 @@ public extension UIStackView {
     public struct Packing {
 
         public var insets: UIEdgeInsets
-        public var interspacing: Double
+        public var interspacing: CGFloat
         public var isLayoutMarginsRelativeArrangement: Bool
 
         public init(
             insets: UIEdgeInsets = UIEdgeInsets.zero,
-            interspacing: Double = 0,
+            interspacing: CGFloat = 0,
             isLayoutMarginsRelativeArrangement: Bool = true) {
             self.insets = insets
             self.interspacing = interspacing
@@ -71,7 +75,7 @@ public extension UIStackView {
     }
 
     public var packing: Packing {
-        get { return Packing(insets: layoutMargins, interspacing: Double(self.spacing), isLayoutMarginsRelativeArrangement: isLayoutMarginsRelativeArrangement) }
+        get { return Packing(insets: layoutMargins, interspacing: self.spacing, isLayoutMarginsRelativeArrangement: isLayoutMarginsRelativeArrangement) }
         set { apply(newValue) }
     }
 
@@ -91,7 +95,7 @@ private extension UIStackView {
     }
 
     func apply(_ packing: Packing) {
-        self.spacing = CGFloat(packing.interspacing)
+        self.spacing = packing.interspacing
         layoutMargins = packing.insets
         isLayoutMarginsRelativeArrangement = packing.isLayoutMarginsRelativeArrangement
     }

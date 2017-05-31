@@ -13,6 +13,11 @@
 		C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */; };
 		C86190E61EDDF47C007DD53E /* UITextInput+Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */; };
 		C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */; };
+		C88933971EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88933961EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift */; };
+		C8B957461EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B957451EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift */; };
+		C8B957481EDE4CF500DBCF1B /* UIStackView+RxArrangedSubviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B957471EDE4CF500DBCF1B /* UIStackView+RxArrangedSubviewsTests.swift */; };
+		C8B9574A1EDE4EE100DBCF1B /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B957491EDE4EE100DBCF1B /* TestError.swift */; };
+		C8CF56061EDE365800460E5F /* UIView+forceLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CF56051EDE365800460E5F /* UIView+forceLayout.swift */; };
 		C8DF3E9E1ED9413E00E878DB /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DF3E941ED9413E00E878DB /* Library.framework */; };
 		C8DF3EA51ED9413E00E878DB /* Library.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DF3E971ED9413E00E878DB /* Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8DF3EC01ED9470900E878DB /* Array+NonNulled.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF3EAF1ED9470800E878DB /* Array+NonNulled.swift */; };
@@ -56,6 +61,11 @@
 		C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNotEmpty.swift"; sourceTree = "<group>"; };
 		C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextInput+Clear.swift"; sourceTree = "<group>"; };
 		C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+DoOnNBextOrError.swift"; sourceTree = "<group>"; };
+		C88933961EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+ContainsArrangedSubview.swift"; sourceTree = "<group>"; };
+		C8B957451EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RxArrangedSubviews.swift"; sourceTree = "<group>"; };
+		C8B957471EDE4CF500DBCF1B /* UIStackView+RxArrangedSubviewsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RxArrangedSubviewsTests.swift"; sourceTree = "<group>"; };
+		C8B957491EDE4EE100DBCF1B /* TestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
+		C8CF56051EDE365800460E5F /* UIView+forceLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+forceLayout.swift"; sourceTree = "<group>"; };
 		C8DF3E941ED9413E00E878DB /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DF3E971ED9413E00E878DB /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
 		C8DF3E981ED9413E00E878DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -158,6 +168,7 @@
 				C8DF3ED71ED9486400E878DB /* Array+NonNulledTests.swift */,
 				C8DF3ED81ED9486400E878DB /* DictionaryMergeTests.swift */,
 				C8DF3ED91ED9486400E878DB /* Overvable+FilterNilTests.swift */,
+				C8B957491EDE4EE100DBCF1B /* TestError.swift */,
 				C8DF3EA41ED9413E00E878DB /* Info.plist */,
 			);
 			path = LibraryTests;
@@ -179,11 +190,15 @@
 				C8DF3EBB1ED9470800E878DB /* UIColor+Random.swift */,
 				C8DF3EBC1ED9470800E878DB /* UIStackView+ArrangedSubviews.swift */,
 				C8DF3EBD1ED9470800E878DB /* UIStackView+Configuration.swift */,
+				C88933961EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift */,
+				C8B957451EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift */,
+				C8B957471EDE4CF500DBCF1B /* UIStackView+RxArrangedSubviewsTests.swift */,
 				C8DF3EBE1ED9470800E878DB /* UITextField+RxEditing.swift */,
 				C8DF3EBF1ED9470800E878DB /* URLConvertible+Append.swift */,
 				C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */,
 				C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */,
 				C828424D1EDDE5E000E786A7 /* UIView+isvisible.swift */,
+				C8CF56051EDE365800460E5F /* UIView+forceLayout.swift */,
 				C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */,
 			);
 			path = Sources;
@@ -386,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */,
+				C8CF56061EDE365800460E5F /* UIView+forceLayout.swift in Sources */,
 				C8DF3EC21ED9470900E878DB /* Delay.swift in Sources */,
 				C8DF3EC11ED9470900E878DB /* ConcatenateOptionalStrings.swift in Sources */,
 				C8DF3EC31ED9470900E878DB /* Dictionary+Merge.swift in Sources */,
@@ -397,8 +413,10 @@
 				C8DF3ECD1ED9470900E878DB /* UIStackView+ArrangedSubviews.swift in Sources */,
 				C8DF3ECF1ED9470900E878DB /* UITextField+RxEditing.swift in Sources */,
 				C828424E1EDDE5E000E786A7 /* UIView+isvisible.swift in Sources */,
+				C8B957461EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift in Sources */,
 				C8DF3ED01ED9470900E878DB /* URLConvertible+Append.swift in Sources */,
 				C8DF3EC91ED9470900E878DB /* OptionalType.swift in Sources */,
+				C88933971EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift in Sources */,
 				C86190E61EDDF47C007DD53E /* UITextInput+Clear.swift in Sources */,
 				C8DF3ECC1ED9470900E878DB /* UIColor+Random.swift in Sources */,
 				C8DF3EC71ED9470900E878DB /* Optional+Existence.swift in Sources */,
@@ -412,8 +430,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DF3EDB1ED9486400E878DB /* DictionaryMergeTests.swift in Sources */,
+				C8B9574A1EDE4EE100DBCF1B /* TestError.swift in Sources */,
 				C8DF3EDA1ED9486400E878DB /* Array+NonNulledTests.swift in Sources */,
 				C8DF3EDC1ED9486400E878DB /* Overvable+FilterNilTests.swift in Sources */,
+				C8B957481EDE4CF500DBCF1B /* UIStackView+RxArrangedSubviewsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
