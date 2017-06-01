@@ -41,6 +41,9 @@
 		C8DF3EDA1ED9486400E878DB /* Array+NonNulledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF3ED71ED9486400E878DB /* Array+NonNulledTests.swift */; };
 		C8DF3EDB1ED9486400E878DB /* DictionaryMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF3ED81ED9486400E878DB /* DictionaryMergeTests.swift */; };
 		C8DF3EDC1ED9486400E878DB /* Overvable+FilterNilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF3ED91ED9486400E878DB /* Overvable+FilterNilTests.swift */; };
+		C8FE01101EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FE010F1EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift */; };
+		C8FE01121EDFA49E002DE69C /* Observable+ReplaceNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FE01111EDFA49E002DE69C /* Observable+ReplaceNil.swift */; };
+		C8FE01141EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FE01131EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,9 @@
 		C8DF3ED71ED9486400E878DB /* Array+NonNulledTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+NonNulledTests.swift"; path = "../LibraryTests/Array+NonNulledTests.swift"; sourceTree = "<group>"; };
 		C8DF3ED81ED9486400E878DB /* DictionaryMergeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryMergeTests.swift; path = ../LibraryTests/DictionaryMergeTests.swift; sourceTree = "<group>"; };
 		C8DF3ED91ED9486400E878DB /* Overvable+FilterNilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Overvable+FilterNilTests.swift"; path = "../LibraryTests/Overvable+FilterNilTests.swift"; sourceTree = "<group>"; };
+		C8FE010F1EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RxContentSize.swift"; sourceTree = "<group>"; };
+		C8FE01111EDFA49E002DE69C /* Observable+ReplaceNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ReplaceNil.swift"; sourceTree = "<group>"; };
+		C8FE01131EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+ReplaceNilTests.swift"; path = "../LibraryTests/Observable+ReplaceNilTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,8 @@
 				C8DF3ED81ED9486400E878DB /* DictionaryMergeTests.swift */,
 				C8DF3EB51ED9470800E878DB /* Observable+FilterNil.swift */,
 				C8DF3ED91ED9486400E878DB /* Overvable+FilterNilTests.swift */,
+				C8FE01111EDFA49E002DE69C /* Observable+ReplaceNil.swift */,
+				C8FE01131EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift */,
 				C8DF3EB61ED9470800E878DB /* Optional+Existence.swift */,
 				C8DF3EB71ED9470800E878DB /* Optional+Then.swift */,
 				C8DF3EB81ED9470800E878DB /* OptionalType.swift */,
@@ -209,6 +217,7 @@
 				C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */,
 				C89C337E1EDE58EF0006F395 /* BoolArray+AtleastOneTrue.swift */,
 				C89C33821EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift */,
+				C8FE010F1EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -413,12 +422,14 @@
 				C8CF56061EDE365800460E5F /* UIView+forceLayout.swift in Sources */,
 				C8DF3EC21ED9470900E878DB /* Delay.swift in Sources */,
 				C8DF3EC11ED9470900E878DB /* ConcatenateOptionalStrings.swift in Sources */,
+				C8FE01101EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift in Sources */,
 				C8DF3EC31ED9470900E878DB /* Dictionary+Merge.swift in Sources */,
 				C89C337D1EDE52290006F395 /* UIStackView+RemoveAllArrangedSubviews.swift in Sources */,
 				C8DF3EC01ED9470900E878DB /* Array+NonNulled.swift in Sources */,
 				C8DF3EC81ED9470900E878DB /* Optional+Then.swift in Sources */,
 				C8DF3ECB1ED9470900E878DB /* StringErrors.swift in Sources */,
 				C8DF3ECA1ED9470900E878DB /* Sequence+DoesNotContain.swift in Sources */,
+				C8FE01121EDFA49E002DE69C /* Observable+ReplaceNil.swift in Sources */,
 				C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */,
 				C8DF3ECD1ED9470900E878DB /* UIStackView+ArrangedSubviews.swift in Sources */,
 				C8DF3ECF1ED9470900E878DB /* UITextField+RxEditing.swift in Sources */,
@@ -440,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FE01141EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift in Sources */,
 				C8DF3EDB1ED9486400E878DB /* DictionaryMergeTests.swift in Sources */,
 				C8B9574A1EDE4EE100DBCF1B /* TestError.swift in Sources */,
 				C8DF3EDA1ED9486400E878DB /* Array+NonNulledTests.swift in Sources */,
