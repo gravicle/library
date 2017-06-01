@@ -13,11 +13,13 @@
 		C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */; };
 		C86190E61EDDF47C007DD53E /* UITextInput+Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */; };
 		C8710B891EDBF679005D74FF /* Observable+DoOnNBextOrError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */; };
+		C871853A1EE0A8E7004059FD /* UITableViewItemsUpdatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87185391EE0A8E7004059FD /* UITableViewItemsUpdatedTests.swift */; };
 		C88933971EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88933961EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift */; };
 		C89C337D1EDE52290006F395 /* UIStackView+RemoveAllArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C337C1EDE52290006F395 /* UIStackView+RemoveAllArrangedSubviews.swift */; };
 		C89C337F1EDE58EF0006F395 /* BoolArray+AtleastOneTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C337E1EDE58EF0006F395 /* BoolArray+AtleastOneTrue.swift */; };
 		C89C33831EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C33821EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift */; };
 		C89C33851EDF676B0006F395 /* UIStackView+RxArrangedSubviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C33841EDF676B0006F395 /* UIStackView+RxArrangedSubviewsTests.swift */; };
+		C8AC285A1EE0A5EA0051EF4D /* UITableView+ItemsUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AC28591EE0A5EA0051EF4D /* UITableView+ItemsUpdated.swift */; };
 		C8B957461EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B957451EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift */; };
 		C8B9574A1EDE4EE100DBCF1B /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B957491EDE4EE100DBCF1B /* TestError.swift */; };
 		C8CF56061EDE365800460E5F /* UIView+forceLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CF56051EDE365800460E5F /* UIView+forceLayout.swift */; };
@@ -67,11 +69,13 @@
 		C8429B001EDAB1E300384268 /* String+isNotEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNotEmpty.swift"; sourceTree = "<group>"; };
 		C86190E51EDDF47C007DD53E /* UITextInput+Clear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextInput+Clear.swift"; sourceTree = "<group>"; };
 		C8710B881EDBF679005D74FF /* Observable+DoOnNBextOrError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+DoOnNBextOrError.swift"; sourceTree = "<group>"; };
+		C87185391EE0A8E7004059FD /* UITableViewItemsUpdatedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableViewItemsUpdatedTests.swift; path = ../LibraryTests/UITableViewItemsUpdatedTests.swift; sourceTree = "<group>"; };
 		C88933961EDE316400E71C74 /* UIStackView+ContainsArrangedSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+ContainsArrangedSubview.swift"; sourceTree = "<group>"; };
 		C89C337C1EDE52290006F395 /* UIStackView+RemoveAllArrangedSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RemoveAllArrangedSubviews.swift"; sourceTree = "<group>"; };
 		C89C337E1EDE58EF0006F395 /* BoolArray+AtleastOneTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BoolArray+AtleastOneTrue.swift"; sourceTree = "<group>"; };
 		C89C33821EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BoolArray+AtleastOneTrueTests.swift"; path = "LibraryTests/BoolArray+AtleastOneTrueTests.swift"; sourceTree = SOURCE_ROOT; };
 		C89C33841EDF676B0006F395 /* UIStackView+RxArrangedSubviewsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+RxArrangedSubviewsTests.swift"; path = "LibraryTests/UIStackView+RxArrangedSubviewsTests.swift"; sourceTree = SOURCE_ROOT; };
+		C8AC28591EE0A5EA0051EF4D /* UITableView+ItemsUpdated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ItemsUpdated.swift"; sourceTree = "<group>"; };
 		C8B957451EDE4B0F00DBCF1B /* UIStackView+RxArrangedSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+RxArrangedSubviews.swift"; sourceTree = "<group>"; };
 		C8B957491EDE4EE100DBCF1B /* TestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		C8CF56051EDE365800460E5F /* UIView+forceLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+forceLayout.swift"; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				C89C337E1EDE58EF0006F395 /* BoolArray+AtleastOneTrue.swift */,
 				C89C33821EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift */,
 				C8FE010F1EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift */,
+				C8AC28591EE0A5EA0051EF4D /* UITableView+ItemsUpdated.swift */,
+				C87185391EE0A8E7004059FD /* UITableViewItemsUpdatedTests.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -421,6 +427,7 @@
 				C8429B011EDAB1E300384268 /* String+isNotEmpty.swift in Sources */,
 				C8CF56061EDE365800460E5F /* UIView+forceLayout.swift in Sources */,
 				C8DF3EC21ED9470900E878DB /* Delay.swift in Sources */,
+				C8AC285A1EE0A5EA0051EF4D /* UITableView+ItemsUpdated.swift in Sources */,
 				C8DF3EC11ED9470900E878DB /* ConcatenateOptionalStrings.swift in Sources */,
 				C8FE01101EDFA3C3002DE69C /* UIScrollView+RxContentSize.swift in Sources */,
 				C8DF3EC31ED9470900E878DB /* Dictionary+Merge.swift in Sources */,
@@ -453,6 +460,7 @@
 			files = (
 				C8FE01141EDFA4E2002DE69C /* Observable+ReplaceNilTests.swift in Sources */,
 				C8DF3EDB1ED9486400E878DB /* DictionaryMergeTests.swift in Sources */,
+				C871853A1EE0A8E7004059FD /* UITableViewItemsUpdatedTests.swift in Sources */,
 				C8B9574A1EDE4EE100DBCF1B /* TestError.swift in Sources */,
 				C8DF3EDA1ED9486400E878DB /* Array+NonNulledTests.swift in Sources */,
 				C89C33831EDF66800006F395 /* BoolArray+AtleastOneTrueTests.swift in Sources */,

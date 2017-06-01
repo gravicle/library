@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base == UITableView {
+extension Reactive where Base: UITableView {
 
     public var contentSize: Driver<CGSize> {
         return observe(CGSize.self, #keyPath(UITableView.contentSize))
