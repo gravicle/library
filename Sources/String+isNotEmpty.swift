@@ -1,6 +1,6 @@
 public extension Optional where Wrapped == String {
 
-    public var isNonNilNonEmpty: Bool {
+    public var isNotNilNotEmpty: Bool {
         guard
             case .some(let value) = self,
             value.isNotEmpty
