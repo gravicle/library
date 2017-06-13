@@ -20,8 +20,8 @@ class ObservableVoidTests: XCTestCase {
 
         let expectedValues = (0..<3).map { _ in Void() }
 
-        zip(values, expectedValues).forEach { (lhs, rhs) in
-            expect(lhs) == rhs
+        zip(values, expectedValues).forEach { (arg) in
+            expect(arg.0) == arg.1
         }
     }
 
